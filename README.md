@@ -13,21 +13,27 @@ It has 4 different commands:
     4. do-what-it-says
 
 **concert-this** command lets you search concerts from [bandsintown.com](bandsintown.com)
+
 ![example](./images/concert-this.PNG)
 
 **spotify-this-song** command lets you search a song from [Spotify](spotify.com)
+
 ![example](./images/spotify-this-song.PNG)
 ![example](./images/spotify-this-song-1.PNG)
 
 **movie-this** command lets you search a movie from [IMDB API](imdb.com)
+
 ![example](./images/movie-this.PNG)
 ![example](./images/movie-this-1.PNG)
 
-**do-what-it-says** command reads from a file names random.txt and does the command written in that text file
+**do-what-it-says** command reads from a file named random.txt and does the command written in that text file
+
+![example](./images/random-txt.PNG)
 ![example](./images/do-what-it-says.PNG)
 
 
 In addition to logging the data to the terminal/bash window, we also output the data to a text file called log.txt.
+
 ![log-text](./images/log-txt.PNG)
 
 ## Why the project is useful?
