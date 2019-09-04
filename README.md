@@ -45,11 +45,15 @@ This project can be useful since the person can search 3 different types of ente
 ## How to set up the app?
 
 Step 1: Clone the repository to your desktop
+
 Step 2: Open the gitbash/terminal window
+
 Step 3: cd to desktop/liri-node-app
 
 Now you can use the LIRI app.
 
 `node liri concert-this <concert-name>`
+
 `node liri spotify-this-song <song-name>`
+
 `node liri movie-this <movie-name>`
