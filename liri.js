@@ -204,7 +204,7 @@ function liriBot() {
             );
 
             let text = [
-              `The title is: ${response.data.Title}`,
+              `The title is : ${response.data.Title}`,
               `The year is: ${response.data.Year}`,
               `The IMDB rating is: ${response.data.imdbRating}`,
               `The Rotten Tomatoes rating is: ${response.data.Ratings[1].Value}`,
