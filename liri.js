@@ -97,7 +97,7 @@ function liriBot() {
       } else if (process.argv.length > 3) {
         spotify.search({ type: "track", query: input }, function(err, data) {
           if (err) {
-            return console.log("Error occurred: " + err);
+            return console.log("Error occurred : " + err);
           }
           console.log(
             "---------------------------------------------------------------"
