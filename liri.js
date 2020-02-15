@@ -83,7 +83,7 @@ function liriBot() {
               `The name of the artist is: ${data.tracks.items[0].artists[0].name}`,
               `The name of the song is: ${data.tracks.items[0].name}`,
               `The preview link to the song is: ${data.tracks.items[0].preview_url}`,
-              `The album name of this song is: ${data.tracks.items[0].album.name}`
+              `The album name of this song is: ${data.tracks.items[0].album.name} `
             ];
 
             fs.appendFile("log.txt", text, function(err) {
